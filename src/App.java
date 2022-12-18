@@ -9,7 +9,7 @@ public class App {
 
         while(running) {
             io.printOptions();
-            option = io.getOption('7');
+            option = io.getOption(7);
             switch (option) {
                 case 1: io.option1(); break;
                 case 2: io.option2(); break;

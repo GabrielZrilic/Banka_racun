@@ -61,8 +61,6 @@ public class Account {
         System.out.println("#                  Promet                   #");
         System.out.println("#############################################\n");
 
-        for(int i = 0; i<traffic.size(); i++) {
-            System.out.println(traffic.get(i));
-        }
+        for(int i = 0; i<traffic.size(); i++) System.out.println(traffic.get(i));
     }
 }
